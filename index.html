@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>hello3d</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <h1>hello3d</h1>
+        <a href="https://github.com/tuo-username/tuo-repo" 
+           class="github-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fab fa-github github-icon"></i>
+        </a>
+    </nav>
+
+    <aside id="sidebar">
+        <div class="sidebar-section">
+            <div class="sidebar-title">Scene</div>
+            <button class="control-btn" onclick="loadExample('wireframe')">🔄 Wireframe</button>
+            <button class="control-btn" onclick="loadExample('lowpoly')">🔶 Low-Poly</button>
+            <button class="control-btn" onclick="loadExample('pattern')">🌀 Pattern</button>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">Performance</div>
+            <div class="performance-indicator" id="fps">🔄 FPS: 0</div>
+            <div class="performance-indicator" id="memUsage">💾 RAM: 0 MB</div>
+            <div class="performance-indicator" id="tempWarning" style="color: #ff4444; display: none;">
+                ⚠ TEMP HIGH
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">Settings</div>
+            <label class="control-btn" style="justify-content: space-between;">
+                <span>🔋 Low Power</span>
+                <input type="checkbox" id="lowPowerMode" checked>
+            </label>
+        </div>
+    </aside>
+
+    <div id="content"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

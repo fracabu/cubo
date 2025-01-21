@@ -1,0 +1,176 @@
+/* Reset delle impostazioni predefinite del browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sfondo generale della pagina */
+body {
+    overflow: hidden;
+    background: #0a0a0a;
+}
+
+/* Stile della navbar in alto */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    z-index: 1000;
+}
+
+#navbar h1 {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #00ff88, #00ffee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #00ffaa;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.github-link:hover {
+    opacity: 0.8;
+}
+
+.github-icon {
+    font-size: 1.4em;
+    filter: drop-shadow(0 0 2px #00ffaa);
+}
+
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 260px;
+    height: calc(100vh - 60px);
+    background: rgba(25, 25, 25, 0.95);
+    backdrop-filter: blur(12px);
+    padding: 20px 15px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 4px 0 15px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar-section {
+    background: rgba(40, 40, 40, 0.6);
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.sidebar-title {
+    color: #00ffaa;
+    font-size: 0.85em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0,255,170,0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar-title::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #00ffaa;
+    border-radius: 50%;
+}
+
+.control-btn {
+    background: linear-gradient(90deg, rgba(0,255,170,0.1) 0%, rgba(0,255,170,0) 100%);
+    border: none;
+    color: #00ffaa;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95em;
+    position: relative;
+    overflow: hidden;
+}
+
+.control-btn:hover {
+    background: linear-gradient(90deg, rgba(0,255,170,0.2) 0%, rgba(0,255,170,0.05) 100%);
+    transform: translateX(8px);
+}
+
+.control-btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #00ffaa;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.control-btn:hover::after {
+    opacity: 1;
+}
+
+#content {
+    margin-left: 260px;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+}
+
+.performance-indicator {
+    color: #00ffaa;
+    font-size: 0.85em;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(0,255,170,0.1);
+}
+
+#lowPowerMode {
+    width: 16px;
+    height: 16px;
+    accent-color: #00ffaa;
+    cursor: pointer;
+    border: 1px solid rgba(0,255,170,0.3);
+    border-radius: 4px;
+}
+
+#lowPowerMode:checked {
+    background-color: #00ffaa;
+}
