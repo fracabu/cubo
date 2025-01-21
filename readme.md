@@ -1,6 +1,41 @@
 
+## 🎥 Video Demo
+Ecco un'anteprima del funzionamento dell'app:  
+![Demo](assets/demo.gif)
 
+Guarda il video completo qui:  
+[Video Demo](https://audiofilescontainer.blob.core.windows.net/audiocontainer/bandicam2025-01-21%2019-30-52-156.mp4)
+```
 
+---
+
+### 4. **Struttura del Repository**
+Dopo aver aggiunto la GIF, la struttura del repository sarà simile a questa:
+
+```
+.
+├── assets/
+│   └── demo.gif        # GIF di demo
+├── index.html          # File principale
+├── style.css           # Stili incorporati
+├── script.js           # Logica JavaScript
+└── README.md           # File README
+```
+
+---
+
+### 5. **Vantaggi di Caricare la GIF Localmente**
+- **Embed diretto su GitHub**: La GIF sarà visualizzata correttamente nel README.md.
+- **Nessun problema di accesso pubblico**: Non devi preoccuparti delle impostazioni di accesso pubblico come con Azure.
+- **Controllo completo**: La GIF è parte del repository e viene versionata insieme al codice.
+
+---
+
+### 6. **Esempio Completo di README.md**
+Ecco come apparirebbe il README con la GIF caricata localmente:
+
+```markdown
+# README - hello3d App
 
 ## 📚 Panoramica
 **hello3d** è un'applicazione web leggera e interattiva per visualizzare scene 3D di base, sviluppata seguendo i tutorial di **Gianluca Lomarco**. L'app permette di esplorare diverse geometrie 3D con animazioni fluide e controlli interattivi, tutto ottimizzato per hardware di fascia bassa.
@@ -9,7 +44,7 @@
 
 ## 🎥 Video Demo
 Ecco un'anteprima del funzionamento dell'app:  
-![Demo](https://audiofilescontainer.blob.core.windows.net/audiocontainer/bandicam_2025-01-21_19-30-52-156.gif)
+![Demo](assets/demo.gif)
 
 Guarda il video completo qui:  
 [Video Demo](https://audiofilescontainer.blob.core.windows.net/audiocontainer/bandicam2025-01-21%2019-30-52-156.mp4)
@@ -110,6 +145,8 @@ Per ulteriori tutorial e risorse, visita il canale YouTube di Gianluca Lomarco:
 ## 📂 Struttura del Codice
 ```bash
 .
+├── assets/
+│   └── demo.gif        # GIF di demo
 ├── index.html          # File principale
 ├── style.css           # Stili incorporati
 └── script.js           # Logica JavaScript
@@ -147,3 +184,7 @@ Questo progetto è rilasciato sotto licenza **MIT**. Sentiti libero di usarlo, m
 **Buon divertimento con hello3d!** 🚀
 ```
 
+---
+
+### Conclusione
+Ora che la GIF è inclusa nel repository, sarà visualizzata correttamente nel README. Se hai bisogno di ulteriori aiuti, fammi sapere! 😊
