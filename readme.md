@@ -8,9 +8,7 @@
 
 ## 🎥 Video Demo  
 ![Demo](assets/demo.gif)  
-[Guarda il video completo](https://audiofilescontainer.blob.core.windows.net/audiocontainer/bandicam2025-01-21%2019-30-52-156.mp4)
 
----
 
 ## 🛠️ Funzionalità
 - **Scene 3D Predefinite**:  
