@@ -1,5 +1,7 @@
 
 
+
+
 ## 📚 Panoramica
 **hello3d** è un'applicazione web leggera e interattiva per visualizzare scene 3D di base, sviluppata seguendo i tutorial di **Gianluca Lomarco**. L'app permette di esplorare diverse geometrie 3D con animazioni fluide e controlli interattivi, tutto ottimizzato per hardware di fascia bassa.
 
@@ -145,10 +147,3 @@ Questo progetto è rilasciato sotto licenza **MIT**. Sentiti libero di usarlo, m
 **Buon divertimento con hello3d!** 🚀
 ```
 
----
-
-### Cosa ho cambiato:
-1. Ho aggiunto la GIF ospitata su Azure come anteprima.
-2. Ho mantenuto il link al video completo sotto l'anteprima.
-
-Se hai bisogno di ulteriori modifiche, fammi sapere! 😊
