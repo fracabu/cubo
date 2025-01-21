@@ -1,3 +1,4 @@
+
 # README - hello3d App
 
 ## 📚 Panoramica
@@ -41,7 +42,7 @@ Guarda il video completo qui:
 - **Three.js**: Libreria JavaScript per grafica 3D nel browser.
 - **HTML5 & CSS3**: Struttura e stile dell'interfaccia utente.
 - **Font Awesome**: Icone per l'interfaccia.
-- **Vite**: Tool di sviluppo moderno (citato nei tutorial di Gianluca Lomarco).
+- **Vite**: Tool di sviluppo moderno, utilizzato per configurare l'ambiente di sviluppo (basato sul tutorial [Three.js + Vite — Basic Scene Tutorial](https://www.youtube.com/watch?v=x_C-JMmps5E)).
 
 ---
 
@@ -77,9 +78,9 @@ Guarda il video completo qui:
 ## 🎓 Tutorial di Gianluca Lomarco Utilizzati
 Questo progetto è stato sviluppato seguendo i tutorial di **Gianluca Lomarco**, un esperto di grafica 3D e sviluppo web. Ecco i video specifici che ho seguito:
 
-### 1. **Three.js: Creare un Cubo Rotante**
-   - **Descrizione**: Tutorial introduttivo su come creare una scena 3D di base con Three.js.
-   - **Link**: [Three.js Basic Scene Tutorial](https://www.youtube.com/watch?v=0Bk0hBze5-A)
+### 1. **Three.js + Vite — Basic Scene Tutorial**
+   - **Descrizione**: Configurazione dell'ambiente di sviluppo con Vite e creazione di una scena 3D di base.
+   - **Link**: [Three.js + Vite — Basic Scene Tutorial](https://www.youtube.com/watch?v=x_C-JMmps5E)
 
 ### 2. **Alla Scoperta del Terzo Asse: i Segreti di Three.js**
    - **Descrizione**: Approfondimento su geometrie, materiali e luci in Three.js.
@@ -100,8 +101,8 @@ Questo progetto è stato sviluppato seguendo i tutorial di **Gianluca Lomarco**,
 ---
 
 ### **Canale YouTube di Gianluca Lomarco**
-Per ulteriori tutorial e risorse, visita il canale YouTube di Gianluca Lomarco:
-- **Link**: [Gianluca Lomarco - Creative Developer](https://www.youtube.com/@gianlucalomarco)
+Per ulteriori tutorial e risorse, visita il canale YouTube ufficiale:  
+[Gianluca Lomarco - Creative Developer](https://www.youtube.com/@gianlucalomarco)
 
 ---
 
@@ -126,7 +127,7 @@ Per ulteriori tutorial e risorse, visita il canale YouTube di Gianluca Lomarco:
 ---
 
 ## 🙏 Ringraziamenti
-Un ringraziamento speciale a **Gianluca Lomarco** per i suoi fantastici tutorial su Three.js, che mi hanno permesso di realizzare questo progetto. Puoi trovare altri suoi contenuti qui:
+Un ringraziamento speciale a **Gianluca Lomarco** per i suoi fantastici tutorial su Three.js, che mi hanno permesso di realizzare questo progetto. Puoi trovare tutti i suoi contenuti qui:
 - **Canale YouTube**: [Gianluca Lomarco - Creative Developer](https://www.youtube.com/@gianlucalomarco)
 - **Sito Web**: [Rockbiter.dev](https://www.rockbiter.dev/)
 
@@ -149,5 +150,3 @@ Questo progetto è rilasciato sotto licenza **MIT**. Sentiti libero di usarlo, m
 
 ---
 
-### Conclusione
-Ora che la GIF è inclusa nel repository, sarà visualizzata correttamente nel README. Se hai bisogno di ulteriori aiuti, fammi sapere! 😊
