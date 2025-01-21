@@ -1,4 +1,3 @@
-# README - hello3d App
 
 ## 📚 Panoramica
 **hello3d** è un'applicazione web leggera e interattiva per visualizzare scene 3D di base, sviluppata seguendo i tutorial di **Gianluca Lomarco**. L'app permette di esplorare diverse geometrie 3D con animazioni fluide e controlli interattivi, tutto ottimizzato per hardware di fascia bassa.
@@ -7,7 +6,7 @@
 
 ## 🎥 Video Demo
 Guarda il video demo dell'applicazione qui:  
-[Video Demo](https://audiofilescontainer.blob.core.windows.net/audiocontainer/bandicam%202025-01-21%2019-30-52-156.mp4)
+[Video Demo](https://audiofilescontainer.blob.core.windows.net/audiocontainer/bandicam_2025-01-21_19-30-52-156.gif)
 
 ---
 
