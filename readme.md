@@ -134,5 +134,5 @@ Un ringraziamento speciale a **Gianluca Lomarco** per i suoi fantastici tutorial
 ---
 
 **Buon divertimento con hello3d!** 🚀
-```
+
 
