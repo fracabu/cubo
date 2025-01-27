@@ -134,9 +134,5 @@ Un ringraziamento speciale a **Gianluca Lomarco** per i suoi fantastici tutorial
 ---
 
 **Buon divertimento con hello3d!** 🚀
-```
 
----
 
-### Conclusione
-Ora che la GIF è inclusa nel repository, sarà visualizzata correttamente nel README. Se hai bisogno di ulteriori aiuti, fammi sapere! 😊
